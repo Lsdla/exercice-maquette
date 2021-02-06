@@ -1,0 +1,138 @@
+*{
+    margin: 0 0;
+}
+
+/* - - - - - - --partie header - - - --- - -*/
+
+header{
+    background-color: rgb(241, 235, 235);
+    height: 150px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    margin: 0 0;
+    z-index: 3;
+}
+.topbar{
+    display: flex;
+    width: 65%;
+    margin: 0 auto;
+}
+#logo{
+    background-color: yellow;
+    width: 50%;
+    display: flex;
+}
+#compte{
+    background-color: teal;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    background-color: rgb(71, 83, 255);
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.compte{
+    background-color: turquoise;
+    display: flex;
+    width: 50%;
+}
+.panier{
+    background-color: yellowgreen;
+    display: flex;
+    width: 50%;
+}
+.bonjour{
+    width: 95%;
+    text-align: end;
+}
+header .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+}
+header .nav-menu ul{
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 85%;
+    margin: auto;
+    
+}
+header nav li{
+    list-style-type: none;
+    border: silver solid 2px;
+    margin: 0;
+
+}
+header nav li a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* ---------partie main-------------------*/
+
+main{
+    background-color: rgb(36, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+main .header-page{
+    width: 65%;
+    margin: 0 auto;
+    background-color: springgreen;
+    z-index: 2;
+    height: 300px;
+    display: flex;
+}
+#header-page{
+    max-width: 100%;
+}
+.container{
+    width: 65%;
+    margin: auto;
+    background-color: white;
+}
+.lign{
+    height: 15px;
+    background-color: brown;
+    margin: 0 0 10px 0;
+}
+
+/*- - - - - - partie footer - - - - - - - - -*/
+
+
+footer{
+    height: 250px;
+    background-color: turquoise;
+    display: flex;
+}
+.footer{
+    width: 65%;
+    margin: 0 auto;
+    background-color: rgb(105, 102, 102);
+}
+.footer .nav-menu ul{
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.footer .nav-menu li{
+    list-style-type: none;
+    border: silver solid 2px;
+
+}
+.footer .nav-menu li a{
+    text-decoration: none;
+    padding: 10px;
+}
